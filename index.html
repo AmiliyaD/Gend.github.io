@@ -4,15 +4,158 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
 
 
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <div class="header-title">
-      <h1>Hello world</h1>
+ <!-- меню навигация -->
+
+  <header class="main-header">
+    <div class="container">
+      <div class="main-navigation">
+        <div class="logo"><img src="nerds-logo.png" alt=""></div>
+        <div class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#">Студия</a></li>
+            <li class="menu-item"><a href="#">Клиенты</a></li>
+            <li class="menu-item"><a href="#">Магазин</a></li>
+            <li class="menu-item"><a href="#">Контакты</a></li>
+          </ul>
+
+        </div>
+        <div class="main-bucket">
+          <a href="#" class="bucket">Корзина</a>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+   <!-- попытка сделать слайдер -->
+  <main class="container">
+    <section class="slider">
+      <div class="slider-inner">
+        <div class="slider-page">
+        <h2>Долго, дорого, <br>
+скрупулезно.</h2>
+<p>Математически выверенный дизайн
+для вашего сайта или мобильного приложения.</p>
+</div>
+<div class="slider-page">
+  <h2>Любим математику
+как никто другой</h2>
+<p>Никакого креатива, только математические формулы
+для расчета идеальных пропорций.</p>
+</div>
+<div class="slider-page">
+  <h2>Только ночь,
+только хардкор</h2>
+<p>Работать днем, как все? Мы против этого.
+Ближе к полуночи работа только начинается.</p>
+</div>
+<div class="btn"><a href="#" class="slider-btn">Узнать больше</a></div>
+      </div>
+      <div class="slider-button">
+      <input type="radio" name="switch" id="btn1" checked>
+  <input type="radio" name="switch" id="btn2">
+  <input type="radio" name="switch" id="btn3">
+</div>
+
+
+    </section>
+
+
+<!-- веб-сайты, приложения и презентации -->
+
+    <section class="features">
+      <div class="features-item"><h3>Веб-сайты</h3>
+      <p>Мир никогда не будет прежним после того как увидит ваш сайт</p>
+    <button class="btn-sites">Заказать</button></div>
+      <div class="features-item"><h3>Приложения</h3>
+      <p>Покорите топ-10 приложений в AppStore и Google Play</p><button class="btn-sites">Заказать</button></div>
+      <div class="features-item"><h3>Презентации</h3>
+    <p>Вы даже не подозреваете,
+насколько вы изумительны!</p><button class="btn-sites">Заказать</button></div>
+    </section>
+<!--
+описание сайта -->
+<section class="about-us">
+  <div class="about-us-left">
+    <b>Мы — маленькая, но гордая
+дизайн-студия из Краснодара. </b>
+<p class="about-us-left-p">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+превыше креатива. Работаем не покладая рук, как роботы.</p>
+<h3>Выполняем заказы на разработку</h3>
+<ul class="about-us-orders">
+  <li>Веб-сайтов любой сложности</li>
+  <li>Мобильных приложений для iOS и Android
+</li>
+  <li>Слайдшоу и видео для корпоративных презентаций</li>
+</ul>
+</div>
+
+<!-- описание сайта: правая часть -->
+
+<div class="about-us-right">
+  <img src="nerds.png" alt="" class="nerds">
+  <h3>с 2004 года Любим точность во всем:</h3>
+  <div class="about-us-procent">
+    <b>146%</b>
+    <p>Уровень самоотдачи</p>
+
+<b>100%</b>
+<p>Соблюдение сроков</p>
+<b>50%</b>
+<p>Минимальная предоплата</p>
+  </div>
+</div>
+
+
+</section>
+
+   <!-- изображения на сайте -->
+<section class="nerds-img">
+<div class="img-html">
+  <img src="htmlacademy.png" alt="">
+  <img src="borodinski.png" alt="">
+  <img src="pink.png" alt="">
+  <img src="mishka.png" alt="">
+</div>
+</section>
+
+<!-- гугл-карты -->
+<section class="google-cards">
+  <div class="card">
+    <div class="card-info">
+      <h2>NERDS DESIGN STUDIO</h2>
+    <p>191186, Санкт-Петербург, <br>
+ул. Б. Конюшенная, д. 19/8 <br>
+
+тел. +7 (812) 275-75-75</p>
+<a href="#">Напишите нам</a>
+    </div>
+  </div>
+</section>
+  </main>
+
+<footer class="main-footer container">
+  <div class="footer-social">
+    <img src="vk.png" alt="">
+    <img src="facebook.png" alt="">
+    <img src="instagram.png" alt="">
+  </div>
+  <div class="footer-friends">
+    <b>Давайте дружить, это выгодно!</b>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+  </div>
+</footer>
+    <!-- <div class="header-title">
+      <h1>Helывывыlo world</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae veritatis vero voluptates dolorum placeat nostrum. Iure at cumque sunt laudantium.</p>
 
     </div>
@@ -29,7 +172,7 @@
         <h2>Flex-title</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, placeat!</p>
       </div>
-    </div>
+    </div> -->
   </header>
 </body>
 </html>
