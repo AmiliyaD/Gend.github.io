@@ -9,6 +9,7 @@ body {
 /* верстка шапки */
 .main-header {
   min-height: 545px;
+  background-color: #eee
 }
 .main-navigation {
   display: flex;
@@ -62,11 +63,85 @@ padding: 0;
 }
   /* верстка слайдера */
 .slider {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 140px;
+position: relative;
+background-color: #eee
+
+}
+.slider-page {
+  width: 460px;
+}
+.slider-page-flex {
+  display: flex;
+}
+/* .slider-inner-slide {
+
+overflow: hidden;
+}
+.slider-inner-page {
+  width: 500%;
+
+
+}
+.slider-inner-page img {
+float: left;
+
+
+}
+.slider-page:nth-child(1) {
+
+}
+ .slider-inner-page {
+  position: relative;
+  overflow: hidden;
+  height: inherit;
+}
+.slider-page {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+.slider input {
+  display: none;
+}
+.slider-page:nth-child(1) {
+  background-image: url("phoneslide.png");
+}
+/* стили для самомго слайдера */
+
+.slider input[type="radio"]  {
+  display: none;
+}
+.controls label {
+  display: inline-block;
+  cursor: pointer;
+border-radius: 50%;
+width: 10px;
+border: white solid 4px;
+background: #cccccc;
+height: 10px;
+margin-left: 20px;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+transition: background-color 0.2s;
+}
+/* заставляем слайдер переключаться  */
+ #btn1:checked ~ .controls label[for="btn1"],
+#btn2:checked ~ .controls label[for="btn2"],
+#btn3:checked ~ .controls label[for="btn3"] {
+background-color: black;
+}
+#btn1:checked ~ .slider-inner-page .slider-page {
+  transform: translate(0);
+}
+#btn2:checked ~ .slider-inner-page .slider-page {
+  transform: translate(-600px);
+}
+#btn3:checked ~ .slider-inner-page .slider-page {
+  transform: translate(-1200px);
 }
 .button-flex {
-  padding-top: 44px;
+  padding-top: 14px;
   width: 626px;
   display: flex;
   justify-content: space-between;
@@ -75,6 +150,22 @@ padding: 0;
 .slider h2 {
 
   font-size: 55px;
+}
+.btn {
+  width: 236px;
+
+  background: #fb565a;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 0;
+
+}
+.slider-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+
+color: white;
 }
 
 /* верстка фич */
@@ -129,7 +220,26 @@ padding: 0;
 .features-item button {
   margin-top: 37px;
 }
+.about-us-procent {
+  padding-top: 50px;
+  display: flex;
+}
+.about-us-procent b {
+  font-size: 35px;
+
+}
+.about-us-right h3 {
+  font-size: 16px;
+
+font-weight: 400;
+
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.5;
+
+}
 /* новый о нас */
+
 .about-us-left p {
 
   padding-top: 34px;
@@ -181,14 +291,60 @@ padding-bottom: 50px;
 }
 .img-html img:hover {
 
-   opacity: 0;
+
+}
+/* карта */
+.google-cards {
+  background-image: url("card.png");
+  height: 419px;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 310px;
+  background: white;
+  width: 320px;
+
+
 }
 .card {
+
+/* padding-top: 54px;
+padding-bottom: 54px;
+background: white;
+width: 319px;
+height: 307px; */
+
+/* background-color: white;
+width: 319px;
+
   padding-top: 56px;
-  padding-bottom: 52px;
+  padding-bottom: 52px; */
+}
+.card-box {
+
+padding-top: 55px;
+
+
+
+}
+.card-info a {
+  border: 0px;
+margin-top: 40px;
+background: #fb565a;
+padding: 20px 40px;
+display: block;
+color: white;
+width: 160px;
+text-transform: uppercase;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
 }
 .card-info {
-  width: 280px;
+padding-left: 50px;
+padding-right: 40px;
 
 }
 .main-footer {
