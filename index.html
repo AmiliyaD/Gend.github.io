@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style-flex.css">
 
 
   <title>Document</title>
@@ -16,8 +17,9 @@
 
   <header class="main-header">
     <div class="container">
+
       <div class="main-navigation">
-        <div class="logo"><img src="nerds-logo.png" alt=""></div>
+<div class="logo"><img src="nerds-logo.png"  alt=""></div>
         <div class="main-menu">
           <ul class="menu-list">
             <li class="menu-item"><a href="#">Студия</a></li>
@@ -34,19 +36,26 @@
 
     </div>
 
-  </header>
+
 
    <!-- попытка сделать слайдер -->
-  <main class="container">
-    <section class="slider">
+
+
+    <section class="slider container">
+
       <div class="slider-inner">
+        <div class="slider-inner-page">
+
+
+
         <div class="slider-page">
         <h2>Долго, дорого, <br>
 скрупулезно.</h2>
 <p>Математически выверенный дизайн
 для вашего сайта или мобильного приложения.</p>
+
 </div>
-<div class="slider-page">
+<!-- <div class="slider-page">
   <h2>Любим математику
 как никто другой</h2>
 <p>Никакого креатива, только математические формулы
@@ -58,20 +67,28 @@
 <p>Работать днем, как все? Мы против этого.
 Ближе к полуночи работа только начинается.</p>
 </div>
-<div class="btn"><a href="#" class="slider-btn">Узнать больше</a></div>
-      </div>
+</figure> -->
+</div>
+      <!-- </div> -->
+<div class="button-flex">
       <div class="slider-button">
       <input type="radio" name="switch" id="btn1" checked>
   <input type="radio" name="switch" id="btn2">
   <input type="radio" name="switch" id="btn3">
 </div>
-
-
+<div id="controls">
+  <label for="btn1"></label>
+  <label for="btn2"></label>
+  <label for="btn3"></label>
+</div>
+<div class="btn"><a href="#" class="slider-btn">Узнать больше</a></div>
+</div>
+</div>
     </section>
 
-
+</header>
 <!-- веб-сайты, приложения и презентации -->
-
+<main class="container main-container">
     <section class="features">
       <div class="features-item"><h3>Веб-сайты</h3>
       <p>Мир никогда не будет прежним после того как увидит ваш сайт</p>
@@ -120,12 +137,18 @@
 
    <!-- изображения на сайте -->
 <section class="nerds-img">
+  <hr class="hr-1">
 <div class="img-html">
+
+
   <img src="htmlacademy.png" alt="">
   <img src="borodinski.png" alt="">
   <img src="pink.png" alt="">
   <img src="mishka.png" alt="">
+
+  <div class="border-bottom"></div>
 </div>
+<hr class="hr-2">
 </section>
 
 <!-- гугл-карты -->

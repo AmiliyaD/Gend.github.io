@@ -1,0 +1,205 @@
+body {
+  font-size: 16px;
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* верстка шапки */
+.main-header {
+  min-height: 545px;
+}
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  height: 70px;
+  align-items: center;
+}
+.logo {
+  width: 260px;
+}
+.main-menu {
+  width: 760px;
+}
+.main-bucket {
+  width: 120px;
+}
+.menu-list {
+  width: 440px;
+  justify-content: space-between;
+display: flex;
+list-style: none;
+align-items:center;
+margin: 0;
+padding: 0;
+
+}
+.menu-list a {
+  text-decoration: none;
+
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.875;
+
+}
+.menu-list a:hover {
+  color:#fb565a;
+}
+.main-bucket a {
+  text-decoration: none;
+
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.875;
+}
+.logo:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+  /* верстка слайдера */
+.slider {
+  padding-top: 70px;
+  padding-bottom: 140px;
+}
+.button-flex {
+  padding-top: 44px;
+  width: 626px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.slider h2 {
+
+  font-size: 55px;
+}
+
+/* верстка фич */
+.features {
+  padding-top: 82px;
+  display: flex;
+  justify-content: space-between;
+}
+.features-item {
+
+
+  padding-top: 177px;
+  width: 300px;
+}.features-item:nth-child(1) button {
+  background-color: #fb565a;
+}
+.features-item:nth-child(2) button  {
+  background-color: #00ca74;
+}
+.features-item:nth-child(3) button  {
+  background-color: #efc84a;
+}
+.features-item button {
+
+
+
+    border: 0px;
+  margin-top: 40px;
+  background: #fb565a;
+  padding: 20px 40px;
+  display: block;
+  color: white;
+  width: 160px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+.features-item:nth-child(1) {
+  background-image: url("web-sites.png");
+  background-repeat: no-repeat;
+}
+.features-item:nth-child(2) {
+  background-image: url("apps.png");
+  background-repeat: no-repeat;
+}
+.features-item:nth-child(3) {
+  background-image: url("present.png");
+  background-repeat: no-repeat;
+}
+.features-item button {
+  margin-top: 37px;
+}
+/* новый о нас */
+.about-us-left p {
+
+  padding-top: 34px;
+width: 626px;
+    font-size: 16px;
+
+    color: rgb(40, 49, 54);
+    line-height: 1.5;
+padding-bottom: 53px;
+
+}
+.about-us-left h3 {
+
+  font-size: 16px;
+
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.5;
+font-weight: 400;
+}
+.about-us {
+  padding-top: 177px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-us-left b {
+  font-size: 45px;
+}
+.hr-1 {
+  margin-bottom: 50px;
+}
+.hr-2 {
+margin-top: 50px;
+}
+.nerds-img {
+padding-top: 77px;
+
+  width: 1085px;
+  margin: 0 auto;
+padding-bottom: 50px;
+
+}
+/* изображения */
+.img-html {
+  opacity: .2;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-html img:hover {
+
+   opacity: 0;
+}
+.card {
+  padding-top: 56px;
+  padding-bottom: 52px;
+}
+.card-info {
+  width: 280px;
+
+}
+.main-footer {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+.footer-social {
+  width: 345px;
+}
+.footer-friends {
+  width: 640px;
+}
