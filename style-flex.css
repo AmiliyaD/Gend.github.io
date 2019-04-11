@@ -48,6 +48,11 @@ padding: 0;
 }
 .menu-list a:hover {
   color:#fb565a;
+  transition: 0.3s all
+}
+.bucket:hover {
+  color:#fb565a;
+transition: 0.3s all
 }
 .main-bucket a {
   text-decoration: none;
@@ -238,7 +243,16 @@ font-weight: 400;
   line-height: 1.5;
 
 }
+.btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
 /* новый о нас */
+
+.about-us-orders li {
+  margin-top: 30px;
+  list-style: none;
+}
 
 .about-us-left p {
 
@@ -258,7 +272,7 @@ padding-bottom: 53px;
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   line-height: 1.5;
-font-weight: 400;
+font-weight: 600;
 }
 .about-us {
   padding-top: 177px;
@@ -299,12 +313,12 @@ padding-bottom: 50px;
   height: 419px;
 }
 .card-box {
-  display: flex;
+  /* display: flex;
   align-items: center;
   align-content: center;
   height: 310px;
   background: white;
-  width: 320px;
+  width: 320px; */
 
 
 }
@@ -323,7 +337,7 @@ width: 319px;
   padding-bottom: 52px; */
 }
 .card-box {
-
+min-height: 230px;
 padding-top: 55px;
 
 
@@ -343,9 +357,10 @@ text-decoration: none;
 border-radius: 5px;
 }
 .card-info {
-padding-left: 50px;
-padding-right: 40px;
-
+padding-left: 30px;
+  width: 297px;
+background: white;
+padding: 30px 20px 46px;
 }
 .main-footer {
   display: flex;
@@ -358,4 +373,8 @@ padding-right: 40px;
 }
 .footer-friends {
   width: 640px;
+
+}
+.footer-friends b {
+  font-size: 30px;
 }
