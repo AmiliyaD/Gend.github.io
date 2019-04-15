@@ -1,5 +1,6 @@
 body {
   font-size: 16px;
+  font-family: "Roboto";
 }
 .container {
   max-width: 1160px;
@@ -19,7 +20,7 @@ body {
   align-items: center;
 }
 .logo {
-  width: 260px;
+  width: 360px;
 }
 .main-menu {
   width: 760px;
@@ -28,23 +29,24 @@ body {
   width: 120px;
 }
 .menu-list {
-  width: 440px;
+  width: 432px;
   justify-content: space-between;
 display: flex;
 list-style: none;
 align-items:center;
 margin: 0;
 padding: 0;
-
 }
-.menu-list a {
+.main-navigation a {
   text-decoration: none;
-
-  font-size: 16px;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  line-height: 1.875;
-
+  width: 61px;
+height: 15px;
+color: #000000;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-transform: uppercase;
 }
 .menu-list a:hover {
   color:#fb565a;
@@ -248,12 +250,24 @@ font-weight: 400;
   cursor: pointer;
 }
 /* новый о нас */
-
+.about-us-orders {
+  position: relative;
+}
 .about-us-orders li {
   margin-top: 30px;
   list-style: none;
-}
 
+}
+.about-us-orders li::before {
+  content: "";
+width: 26px;
+height: 2px;
+background: red;
+position: absolute;
+left: -30px;
+
+
+}
 .about-us-left p {
 
   padding-top: 34px;
