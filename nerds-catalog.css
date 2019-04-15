@@ -22,11 +22,11 @@
 }
 .menu-list a:hover {
   color:#fb565a;
-  transition: 0.3s all
+  
 }
 .bucket:hover {
   color:#fb565a;
-transition: 0.3s all
+
 }
 .main-menu {
   width: 760px;
@@ -34,6 +34,7 @@ transition: 0.3s all
 .main-bucket {
   width: 120px;
 }
+
 .menu-list {
   width: 432px;
   justify-content: space-between;
@@ -43,6 +44,20 @@ align-items:center;
 margin: 0;
 padding: 0;
 }
+.menu-list a:active {
+  opacity: 0.3;
+  color: #000000;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-transform: uppercase;
+
+}
+.link::after {
+  border-bottom: 3px solid red;
+}
+
 .main-navigation a {
   text-decoration: none;
   width: 61px;
@@ -117,6 +132,14 @@ form {
 fieldset {
 b
 }
+.form-button:focus {
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  background-color: #d5d5d5;
+  outline: none;
+}
+.form-button:hover {
+  background-color: #dfdfdf;
+}
 .form-main {
 padding-bottom: 58px;
 }
@@ -124,6 +147,14 @@ padding-bottom: 58px;
   display: flex;
   flex-direction: column;
 padding-bottom: 55px;
+}
+.form-radio label:nth-child(3):disabled  {
+  opacity: 0.3;
+color: #283136;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
 }
 legend {
   width: 61px;
@@ -260,8 +291,17 @@ border: none;
   background-image: url("card.png");
   height: 419px;
 }
-.card-bg {
+.card {
+background-image: url("card.png");
 
+  height:450px;
+   
+}
+.card-bg {
+  padding-top: 54px;
+  padding-left: 140px;
+  padding-bottom: 54px;
+ 
 }
 .card-box {
   /* display: flex;
@@ -273,7 +313,14 @@ border: none;
 
 
 }
+.card-contact {
+  background: white;
+  width: 319px;
+height: 308px;
+}
 .btn {
+  margin-left: 50px;
+  
   width: 219px;
 height: 50px;
 background-color: #fb565a;
@@ -284,9 +331,14 @@ font-size: 16px;
 font-weight: 500;
 line-height: 18px;
 text-transform: uppercase;
+
+}
+.card-btn:hover {
+  background-color: #e74246;
 }
 .card-header {
-
+  padding-top: 50px;
+padding-left: 50px;
 color: #000000;
 font-family: Roboto;
 font-size: 18px;
@@ -295,6 +347,8 @@ line-height: 30px;
 text-transform: uppercase;
 }
 .card-paragraph {
+  padding-bottom: 40px;
+  padding-left: 50px;
   width: 200px;
 height: 71px;
 color: #666666;

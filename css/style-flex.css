@@ -56,6 +56,10 @@ text-transform: uppercase;
   color:#fb565a;
 transition: 0.3s all
 }
+.menu-item:active:before {
+  content: "";
+  border-bottom: 1px solid red;
+ }
 .main-bucket a {
   text-decoration: none;
 
